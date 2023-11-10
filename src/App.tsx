@@ -22,7 +22,7 @@ import SigninForm from "./_auth/forms/SigninForm";
 
 
 import "./globals.css";
-import {Home} from './_root/pages';
+import Home from "./_root/pages/Home";
 
 const App = () => {
   return (
