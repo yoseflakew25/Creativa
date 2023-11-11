@@ -10,12 +10,9 @@ const Topbar = () => {
   const { user } = useUserContext();
   const { mutate: signOut, isSuccess } = useSignOutAccount();
 
-useEffect(() => {
-  if (isSuccess && user) {
-    navigate(0);
-  }
-}, [isSuccess, user, navigate]);
-
+  useEffect(() => {
+    if (isSuccess) navigate(0);
+  }, [isSuccess]);
 
   return (
     <section className="topbar">
@@ -33,8 +30,7 @@ useEffect(() => {
           <Button
             variant="ghost"
             className="shad-button_ghost"
-            onClick={() => signOut()}
-          >
+            onClick={() => signOut()}>
             <img src="/assets/icons/logout.svg" alt="logout" />
           </Button>
           <Link to={`/profile/${user.id}`} className="flex-center gap-3">
