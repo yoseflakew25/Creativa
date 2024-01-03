@@ -27,14 +27,16 @@ const LeftSidebar = () => {
   return (
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
-        <Link to="/" className="flex gap-3 items-center">
+        <Link to="/" className="flex gap-3 items-center justify-center">
           <img
-            src="/assets/images/logo.svg"
+            src="/assets/icons/favicon.ico"
             alt="logo"
-            width={170}
-            height={36}
+            width={32}
+            height={32}
           />
+          <h2 className="font-bold text-2xl">Creativa</h2>
         </Link>
+
 
         {isLoading || !user.email ? (
           <div className="h-14">

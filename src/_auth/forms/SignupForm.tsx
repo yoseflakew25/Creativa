@@ -87,7 +87,15 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.svg" alt="logo" />
+      <div className="flex gap-3 items-center justify-center">
+          <img
+            src="/assets/icons/favicon.ico"
+            alt="logo"
+            width={32}
+            height={32}
+          />
+          <h2 className="font-bold text-2xl">Creativa</h2>
+        </div>
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Create a new account

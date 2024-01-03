@@ -35,7 +35,11 @@ const Home = () => {
     <div className="flex flex-1">
       <div className="home-container">
         <div className="home-posts">
-          <h2 className="h3-bold md:h2-bold text-left w-full">Home Feed</h2>
+          <h2 className="h3-bold md:h2-bold text-left mx-auto">Welcome to Creativa <br />
+</h2>
+<p className="text-xl font-light -mt-4">Discover and Showcase Creative Excellence</p>
+        <p className="text-white  -mt-4">Creativa is a vibrant online community where designers, illustrators, artists, and creative professionals come together to showcase their exceptional work. Browse through a diverse collection of captivating design projects, ranging from stunning illustrations to cutting-edge user interfaces.</p>
+          
           {isPostLoading && !posts ? (
             <Loader />
           ) : (
@@ -51,7 +55,8 @@ const Home = () => {
       </div>
 
       <div className="home-creators">
-        <h3 className="h3-bold text-light-1">Top Creators</h3>
+        <h3 className="h3-bold text-light-1">Meet the Visionaries</h3>
+        <p className="-mt-4">Discover talented designers who are shaping the creative landscape. Follow their journey, get inspired by their work, and learn from their expertise!</p>
         {isUserLoading && !creators ? (
           <Loader />
         ) : (
