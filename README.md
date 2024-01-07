@@ -10,14 +10,5 @@ Creativa is a vibrant online community where designers, illustrators, artists, a
 - Engage with the creative community through comments and likes
 - Stay inspired and up-to-date with the latest trends in design
 
-## Getting Started
+## Screenshots
 
-To get started with Creativa, follow these steps:
-
-1. Clone the repository:
-   git clone https://github.com/yoseflakew25/Creativa.git
-2. Install the necessary dependencies:
-   cd Creativa
-   npm install
-3. Launch the application:
-   
