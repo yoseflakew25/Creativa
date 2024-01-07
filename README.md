@@ -12,9 +12,11 @@ Creativa is a vibrant online community where designers, illustrators, artists, a
 
 ## Screenshots
 
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/1.png)
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/2.png)
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/3.png)
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/4.png)
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/5.png)
-![screenshot1](https://github.com/yoseflakew25/HomeFinder/blob/main/client/public/6.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/1.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/2.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/3.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/4.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/5.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/6.png)
+![screenshot1](https://github.com/yoseflakew25/Creativa/blob/main/public/7.png)
+
